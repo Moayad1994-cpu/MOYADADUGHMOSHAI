@@ -2,8 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import google.generativeai as ai
 import json
 import os
-from gunicorn import util
-import fcntl
+import waitress
 
 # Flask app setup
 app = Flask(__name__)
