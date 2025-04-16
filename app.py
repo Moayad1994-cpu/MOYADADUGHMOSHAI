@@ -7,7 +7,7 @@ import logging
 app = Flask(__name__)
 
 # إعداد API Key من Google Generative AI
-API_KEY = "AIzaSyAmooXBesmJl_6rks5_mVyhru6XbDwBzbQ"
+API_KEY = "AIzaSyAgF_uh6-380Q1qbgsZzRVjONuzQrjFJKI"
 
 # إعداد النموذج
 try:
